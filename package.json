@@ -1,25 +1,39 @@
 {
-    "name": "@extensions/gtm",
-    "version": "1.0.0",
-    "description": "A pwa studio extension to implement gtm in storefront project.",
-    "author": "mumtaz1000",
-    "license": "MIT",
-    "main": "./lib/components/GTM/index.js",
-    "pwa-studio": {
-        "targets": {
-            "intercept": "intercept.js"
-        }
-        },
-      "peerDependencies": {
-        "@magento/pwa-buildpack": "*",
-        "@magento/venia-ui": "*",
-        "react": "~16.9.0",
-        "react-gtm-module":"~2.0.11",
-        "react-router-dom": "~5.1.0"
-        
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mumtaz1000/pwa-studio-gtm-package"
+  "name": "@mumtaz1000/gtm-package",
+  "version": "1.0.0",
+  "description": "A pwa studio extension to implement gtm in storefront project.",
+  "author": "mumtaz1000",
+  "license": "MIT",
+  "main": "./lib/components/GTM/index.js",
+  "pwa-studio": {
+    "targets": {
+      "intercept": "intercept.js"
     }
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "*",
+    "@magento/venia-ui": "*",
+    "react": "~16.9.0",
+    "react-gtm-module": "~2.0.11",
+    "react-router-dom": "~5.1.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mumtaz1000/npm-package-pwa-studio-gtm.git"
+  },
+  "keywords": [
+    "pwa",
+    "studio"
+  ],
+  "bugs": {
+    "url": "https://github.com/mumtaz1000/npm-package-pwa-studio-gtm/issues"
+  },
+  "homepage": "https://github.com/mumtaz1000/npm-package-pwa-studio-gtm#readme"
 }
